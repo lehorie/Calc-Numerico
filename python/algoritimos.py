@@ -1,7 +1,5 @@
 # Bibliotecas
-import math
 import numpy as np
-import pandas as pd
 
 # Implementação do método de Newton-Raphson com 3 iterações
 def newton_method_iter(f, df, x_old, n):
