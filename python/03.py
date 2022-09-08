@@ -15,7 +15,7 @@ def newton_method_iter(f, df, x_old, n):
   return x_new
 
 # Fórmulas
-g = lambda h: math.pi*h**2*(9 - h)/90 - 1
+g =  lambda h: math.pi*h**2*(9 - h)/90 - 1
 dg = lambda h: math.pi*h*(6 - h)/30
 
 # Resposta
