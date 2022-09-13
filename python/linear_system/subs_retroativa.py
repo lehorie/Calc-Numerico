@@ -20,5 +20,6 @@ def solucao_teste(Metodo,A,bs):
 
 
 A,bs =criarteste(4,21)
+#triangulariza a matriz para upper
 U = np.triu(A)
 solucao_teste(SubRet, U,bs)
