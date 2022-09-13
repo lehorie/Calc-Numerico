@@ -27,8 +27,8 @@ def gauss_elim(A, B):
 
 A = np.array([[4, 3, -5], 
               [-2, -4, 5], 
-              [8, 8, 0]])
-y = np.array([2, 5, -3])
+              [8, 8, 0]],dtype=float)
+y = np.array([2, 5, -3],dtype=float)
 y = np.transpose(y)
 
 a = gauss_elim(A, y)

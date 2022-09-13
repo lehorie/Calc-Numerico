@@ -17,9 +17,9 @@ def lu_dec(A):
 
 A = np.array([[4, 3, -5], 
               [-2, -4, 5], 
-              [8, 8, 0]])
+              [8, 8, 0]], dtype= float)
 (a,b) = lu_dec(A)
-print(a, "\n", b, "\n")
+print(a, "\n \n", b, "\n \n")
 
 c = (a,b) = lu_dec(A)
 print(c)
